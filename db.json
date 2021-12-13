@@ -1,0 +1,9 @@
+{
+  "users": [
+    {
+      "login": "Max",
+      "password": "123456",
+      "id": 1
+    }
+  ]
+}

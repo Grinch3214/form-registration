@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<div id="form" class="form">
+		<video class="video" preload="auto" loop autoplay muted>
+			<source src="./video/snowy.mp4" type="video/mp4" />
+		</video>
+		<div id="form__box" class="form__box">
+			<div class="form__container">
+				<div class="form__tabs">
+					<div id="tab_gradient"></div>
+					<button class="form__tabs-tab" type="button" onclick="signInTab()">Sign In</button>
+					<button class="form__tabs-tab" type="button" onclick="signUpTab()">Sign Up</button>
+				</div>
+
+				<form id="sign_in" class="form__group" action="#">
+					<input id="sign_in_login" class="form__group-field" type="text" placeholder="Login" tabindex="-1">
+					<input id="sign_in_password" class="form__group-field" type="password" placeholder="Password"
+						tabindex="-1">
+					<button id="signInBtn" class="form__group-submit" type="submit" tabindex="-1">Sign In</button>
+					<p id="wrong_message_in"></p>
+				</form>
+
+				<form id="sign_up" class="form__group" action="#">
+					<input id="sign_up_login" class="form__group-field" type="text" placeholder="Login" tabindex="-1">
+					<input id="sign_up_pass" class="form__group-field" type="password" placeholder="Password" tabindex="-1">
+					<input id="sign_up_pass_repeat" class="form__group-field" type="password" placeholder="Repeated password" tabindex="-1">
+					<button id="signUpBtn" class="form__group-submit" type="submit" tabindex="-1">Sign Up</button>
+					<p id="wrong_message_up"></p>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>
