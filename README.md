@@ -6,4 +6,4 @@
 
 ***
 
-**[Form registration page](https://github.com/Grinch3214/form-registration/dist)**g
+[Form registration page](https://github.com/Grinch3214/form-registration/dist)
